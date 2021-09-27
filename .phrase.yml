@@ -2,7 +2,7 @@ phrase:
     project_id: 8636410be85b040da7e6a301f7b268d9
     
     push:
-        source:
+        sources:
         - file: ./locales/menu1_en_US.json
             params:
                 file_format: simple_json
@@ -10,7 +10,7 @@ phrase:
                 update_translation: true
                 
     pull:
-        target:
+        targets:
         - file: ./locales/menu1_de_DE.json
             params:
                 file_format: simple_json
