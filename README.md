@@ -1,2 +1,3 @@
 # First steps in GIT
-Trying out the GIT functionality and syncing to my desktop
+Trying out the GIT functionality and syncing to my desktop.
+First update from cmd.
