@@ -7,7 +7,7 @@ phrase:
             params:
                 file_format: simple_json
                 locale_id: 137e6d54087861f8fa6e725dc9453aa1
-                update_translation: true
+                update_translations: true
                 
     pull:
         targets:
