@@ -1,19 +1,20 @@
 phrase:
-project_id: 8636410be85b040da7e6a301f7b268d9
-push:
-  sources:
-  - file: ./locales/menu1_en_US.json
-  params:
-    file_format: simple_json
-    locale_id: 137e6d54087861f8fa6e725dc9453aa1
-    update_translations: true
-pull:
-  targets:
-  - file: ./locales/menu1_de_DE.json
-  params:
-    file_format: simple_json
-    locale_id: 024641cd7baa665d56159e2fe00eee7d
-  - file: ./locales/menu1_fr_FR.json
-  params:
-    file_format: simple_json
-    locale_id: 79ff7105dd1fbf7bef5254b873bbc5c0
+  project_id: 8636410be85b040da7e6a301f7b268d9
+  push:
+    sources:
+      - file: ./locales/menu1_en_US.json
+        params:
+          file_format: simple_json
+          locale_id: 137e6d54087861f8fa6e725dc9453aa1
+          update_translations: true
+  pull:
+    targets:
+      - file: ./locales/menu1_de_DE.json
+        params:
+          file_format: simple_json
+          locale_id: 024641cd7baa665d56159e2fe00eee7d
+      - file: ./locales/menu1_fr_FR.json
+        params:
+          file_format: simple_json
+          locale_id: 79ff7105dd1fbf7bef5254b873bbc5c0
+
